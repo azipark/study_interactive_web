@@ -1,0 +1,103 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgb(0 0 0/8%) 0 1px 0
+}
+
+#logo {
+  height: 64px;
+  padding: 0 80px;
+  cursor: pointer;
+}
+
+#little-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 360px;
+  height: 48px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 3px 12px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.08);
+}
+#little-search:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+}
+
+#little-search * {
+  cursor: pointer;
+}
+
+.little-search_button {
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: rgb(34, 34, 34);
+}
+.little-search_button:nth-of-type(3) {
+  color: #717171
+}
+
+.divider {
+  flex-basis: 1px;
+  flex-shrink: 0;
+  height: 24px;
+  background-color: #DDD;
+}
+
+#magnifying-glass-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 32px;
+  flex-shrink: 0;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ff385C;
+}
+
+#magnifying-glass-icon {
+  width: 12px;
+}
+
+#do-airbnb {
+  padding: 12px;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  cursor: pointer;
+}
+
+#do-airbnb:hover {
+  background-color: #f7f7f7;
+}
+
+#header-right-section {
+  display: flex;
+  gap: 8px;
+}
+
+#profile-section {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 12px;
+  border: 1px solid #ddd;
+  border-radius: 21px;
+  gap: 12px;
+  cursor: pointer;
+}
+
+#profile-section:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18)
+}
